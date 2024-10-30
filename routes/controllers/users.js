@@ -1,8 +1,8 @@
-const pool  = require('../../db/mongo');
 const CryptoJS = require('crypto-js');
 const moment = require('moment-timezone');
+const pool  = require('../../db/mongo');
 
-//---------------Login---------------------
+//---------------Login-------------------a--
 
 const validateCredentials = async (req, res) => {
     const datos = req.body;
